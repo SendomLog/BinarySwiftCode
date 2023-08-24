@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import BinarySwiftCode
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var tipsLabel: Label!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        tipsLabel.say()
     }
 
     override func didReceiveMemoryWarning() {

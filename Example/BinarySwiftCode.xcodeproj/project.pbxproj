@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54F8FB515AA0F414A73C414C /* libPods-BinarySwiftCode_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47378ED6ECC7AC17552DBF97 /* libPods-BinarySwiftCode_Tests.a */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		8BCBCBBB844899D41B412269 /* Pods_BinarySwiftCode_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132B231E9E711B38FAB65C39 /* Pods_BinarySwiftCode_Example.framework */; };
-		E68EA40EE1A764C899E99A84 /* Pods_BinarySwiftCode_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CAB9626D3EACBF2213F8D5 /* Pods_BinarySwiftCode_Tests.framework */; };
+		B1D96475B66A9130920C5F59 /* libPods-BinarySwiftCode_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FCD5EFC99D50CB899BDB91 /* libPods-BinarySwiftCode_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		132B231E9E711B38FAB65C39 /* Pods_BinarySwiftCode_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BinarySwiftCode_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		17CAB9626D3EACBF2213F8D5 /* Pods_BinarySwiftCode_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BinarySwiftCode_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E255EC33A2364A32193AE63 /* Pods-BinarySwiftCode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinarySwiftCode_Example.release.xcconfig"; path = "Target Support Files/Pods-BinarySwiftCode_Example/Pods-BinarySwiftCode_Example.release.xcconfig"; sourceTree = "<group>"; };
-		487342D1496D1BF94528012C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		47378ED6ECC7AC17552DBF97 /* libPods-BinarySwiftCode_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BinarySwiftCode_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		487342D1496D1BF94528012C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		55FCD5EFC99D50CB899BDB91 /* libPods-BinarySwiftCode_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BinarySwiftCode_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C1420C85E05AA80A7769626 /* Pods-BinarySwiftCode_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinarySwiftCode_Tests.release.xcconfig"; path = "Target Support Files/Pods-BinarySwiftCode_Tests/Pods-BinarySwiftCode_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BinarySwiftCode_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinarySwiftCode_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6E53F722C05B61412C7960F0 /* Pods-BinarySwiftCode_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinarySwiftCode_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BinarySwiftCode_Tests/Pods-BinarySwiftCode_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		70A72B7ABF0565BE61BC826E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F86FA0E827DA722D769AFE33 /* BinarySwiftCode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BinarySwiftCode.podspec; path = ../BinarySwiftCode.podspec; sourceTree = "<group>"; };
+		70A72B7ABF0565BE61BC826E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F86FA0E827DA722D769AFE33 /* BinarySwiftCode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BinarySwiftCode.podspec; path = ../BinarySwiftCode.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FD7D6D5F77C035F36C96D2FF /* Pods-BinarySwiftCode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinarySwiftCode_Example.debug.xcconfig"; path = "Target Support Files/Pods-BinarySwiftCode_Example/Pods-BinarySwiftCode_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BCBCBBB844899D41B412269 /* Pods_BinarySwiftCode_Example.framework in Frameworks */,
+				B1D96475B66A9130920C5F59 /* libPods-BinarySwiftCode_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E68EA40EE1A764C899E99A84 /* Pods_BinarySwiftCode_Tests.framework in Frameworks */,
+				54F8FB515AA0F414A73C414C /* libPods-BinarySwiftCode_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,6 @@
 				6E53F722C05B61412C7960F0 /* Pods-BinarySwiftCode_Tests.debug.xcconfig */,
 				5C1420C85E05AA80A7769626 /* Pods-BinarySwiftCode_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -154,8 +153,8 @@
 		99DD14CC15DABD893191EABB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				132B231E9E711B38FAB65C39 /* Pods_BinarySwiftCode_Example.framework */,
-				17CAB9626D3EACBF2213F8D5 /* Pods_BinarySwiftCode_Tests.framework */,
+				55FCD5EFC99D50CB899BDB91 /* libPods-BinarySwiftCode_Example.a */,
+				47378ED6ECC7AC17552DBF97 /* libPods-BinarySwiftCode_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,7 +170,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				309288B0A8925D455FC6B9F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -190,7 +188,6 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				EF00D32A6433D142984933E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -228,6 +225,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -263,24 +261,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		309288B0A8925D455FC6B9F6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BinarySwiftCode_Example/Pods-BinarySwiftCode_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BinarySwiftCode/BinarySwiftCode.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BinarySwiftCode.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BinarySwiftCode_Example/Pods-BinarySwiftCode_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8A672ED149A12C222D42B2E5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -323,24 +303,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EF00D32A6433D142984933E3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BinarySwiftCode_Tests/Pods-BinarySwiftCode_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BinarySwiftCode_Tests/Pods-BinarySwiftCode_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -438,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -484,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
